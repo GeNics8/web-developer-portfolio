@@ -3,9 +3,9 @@
   }
   
   body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
   }
   
@@ -15,10 +15,184 @@
   h4,
   h5,
   h6 {
+    border: 5px;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+  }
+
+  #style header {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    border: 5px solid whitesmoke;
+  }
+
+
+  #paragraph_home {
+      text-align: center;
+      display: flexbox;
+      width: 250px;
+      vertical-align: bottom;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+      size: 30px;
+      margin: 10px;
+  }
+
+  #paragraph_about {
+      text-align: center;
+      display: flexbox;
+      width: 300px;
+      vertical-align: bottom;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: black;
+      size: 30px;
+      margin: 10px;
+
+  }
+
+  #menu area {
+    border: 10px solid red;
+    margin: 10px;
+    background-color: antiquewhite;
+    padding-top: 50px;
+    margin-top: 20px;
+    height: 750px;
+    width: 250px;
+    display: inline-flexbox;
+    vertical-align: top;
+  }
+
+  body {
+    background-image: url(hero-bg.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #footer {
+    background-color: aliceblue;
+    margin: 10px;
+    margin-top: 15px;
+    border: 10px solid whitesmoke;
+    text-align: center;
+    width: 99.9%;
+    position: absolute;
+  }
+
+  .verticalLine {
+    border-right: 5px solid black;
+    height: 300px;
+    position: absolute;
+    right: 50%;
+  }
+
+  #home {
+    font: bold 30px Arial;
+    text-align: left;
+  }
+
+  #about {
+    font: bold 30px Arial;
+    text-align: left;
+  }
+
+  #blog {
+    font: bold 30px Arial;
+    text-align: left;
+  }
+
+  #work {
+    font: bold 30px Arial;
+    text-align: left;
+  }
+
+  #contact {
+    font: bold 30px Arial;
+    text-align: left;
+  }
+
+  body {
     margin: 0;
+    padding: 0;
+}
+
+#navigation-container {
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+footer {
+  padding: 30px;
+  margin: 0px 2px 0px 2px;
+  border: 5px solid white;
+}
+
+#footer {
+  border: 5px solid white;
+  margin: 20px 25px 20px 25px;
+  padding: 15px;
+
+
+}
+
+.top-container {
+  background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  border: 20px;
+  margin: 25px;
+  padding: 20px;
+}
+
+.middle-container { 
+background-color: aliceblue;
+height: 200px;
+width: 200px;
+border: 20px;
+margin: 25px;
+padding: 20px;
+}
+
+.bottom-container {
+  background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  border: 20px;
+  margin: 25px;
+  padding: 20px;
+}
+
+  head {
+    background-color: azure;
   }
   
   p {
     margin: 0;
   }
-  
