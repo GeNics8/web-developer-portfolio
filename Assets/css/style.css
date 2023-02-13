@@ -1,14 +1,196 @@
+/* Website no changes to width, height, title, size etc */
+
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   
+  /* Body */
+
   body {
     margin: 10px;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
   }
+
+  body {
+    background-color:ghostwhite;
+  }
+
+  /* Navigation Bar */
+
+  .header {
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  #2a607c;
+    color:#ffffff
+  }
+
+  /* header h1 */
+
+  .header h1 {
+ display: inline-block;
+ font-size: 48px;
+  }
+
+  /* color */
+
+  .header h1 .Ics {
+    color: #d9dcd6;
+  }
+
+  /* set up margin, padding */
+
+  .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  /*header list with unordered list */
+
+  .header div ul {
+    list-style-type: none;
+  }
+
+  /* header unordered list and margin */
+
+  .header div ul li {
+    display: inline-block;
+   margin-left: 30px;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 30px;
+    margin: 0px 2px 0px 2px;
+    border: 5px solid white;
+    text-align: center;
+  }
   
+  #footer {
+    border: 5px solid white;
+    margin: 10px 5px 10px 5px;
+    padding: 30px;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  /* footer css properties */
+
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer heading settings */
+
+.footer h2 {
+    font-size: 40px;
+}
+
+/* a tag for css properties */
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+/* paragraph setup css properties */
+
+p {
+  font-size: 20px;
+}
+
+/* Contact form css properties */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* contact css properties */
+
+.contact {
+  border-radius: 1px;
+  padding: 1px;
+  margin: 1px;
+  text-align: center;
+}
+
+/* about css properties */
+
+.about {
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 0px;
+  border: 15px;
+}
+
+/* work css properties */
+
+.work {
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 0px;
+  border: 15px;
+}
+
+/* pictures */
+
+.circle {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  }
+
+/*  see lets */
+
   h1,
   h2,
   h3,
@@ -67,18 +249,9 @@
   }
 
   body {
-    background-image: url(hero-bg.jpg);
-    background-repeat: no-repeat;
-  }
-
-  #footer {
-    background-color: aliceblue;
-    margin: 10px;
-    margin-top: 15px;
-    border: 10px solid whitesmoke;
-    text-align: center;
-    width: 99.9%;
-    position: absolute;
+    background-image: url(/Assets/images/);
+    background-repeat: repeat;
+  
   }
 
   .verticalLine {
@@ -147,20 +320,6 @@ li {
     align-items: center;
 }
 
-
-footer {
-  padding: 30px;
-  margin: 0px 2px 0px 2px;
-  border: 5px solid white;
-}
-
-#footer {
-  border: 5px solid white;
-  margin: 20px 25px 20px 25px;
-  padding: 15px;
-
-
-}
 
 .top-container {
   background-color: aliceblue;
